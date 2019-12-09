@@ -24,12 +24,24 @@
 
 .card {
   color: #282c34;
-  height: 18rem;
+  height: 17rem;
   margin: 0.1rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
 }
 
 .card-text {
   font-size: 0.7rem;
+}
+
+.title {
+  padding: 2rem;
+  background-color: #282c34;
+  color:white;
+}
+
+h1 {
+  margin:0;
 }
 
 .small {

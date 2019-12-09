@@ -1,7 +1,8 @@
 class Year {
-    constructor(year_date, random_photos_link) {
+    constructor(year_date, random_photos_link,random_header_image) {
         this.year_date = year_date;
         this.random_photos_link = random_photos_link;
+        this.random_header_image = random_header_image;
         this.events = []
     }
     addEvent(event){
@@ -10,7 +11,7 @@ class Year {
 }
 
 class Event {
-    constructor(name, start_date, end_date, photo_link, header_image="none") {
+    constructor(name, start_date, end_date, photo_link, header_image) {
         this.name = name;
         this.start_date = start_date;
         this.end_date = end_date;
@@ -19,7 +20,7 @@ class Event {
     }
 }
 
-let year_2018 = new Year(2018, "https://photos.google.com/share/AF1QipNtJmQGz-Twncj0ts8IHC8BqBi3e0Rzen379vQw9ZTUxImZupi6fae8-YOfR6c-KA?key=NUtac2JiYVM1LTE3RXYyOVlKVG52UVROS2pJOVVn");
+let year_2018 = new Year(2018, "https://photos.google.com/share/AF1QipNtJmQGz-Twncj0ts8IHC8BqBi3e0Rzen379vQw9ZTUxImZupi6fae8-YOfR6c-KA?key=NUtac2JiYVM1LTE3RXYyOVlKVG52UVROS2pJOVVn", "Random2018.jpg");
 year_2018.addEvent(new Event('Greece',
     new Date('June 23, 2018'),
     new Date('July 6, 2018'),
@@ -46,7 +47,7 @@ year_2018.addEvent(new Event('New Years',
 ));
 
 
-let year_2019 = new Year(2019, "https://photos.google.com/share/AF1QipMxJO6KWs_Pld478D4vgoDJEm9hH09r6ELv1jjrKwC78tPiH5D008GqXZJqyVZh1A?key=bm90bHZaSm5YUC04dm1LTWQ4ZHJoY1pXU0NSbWRB");
+let year_2019 = new Year(2019, "https://photos.google.com/share/AF1QipMxJO6KWs_Pld478D4vgoDJEm9hH09r6ELv1jjrKwC78tPiH5D008GqXZJqyVZh1A?key=bm90bHZaSm5YUC04dm1LTWQ4ZHJoY1pXU0NSbWRB", "Random2019.jpg");
 year_2019.addEvent(new Event("Marina's Wedding",
     new Date('August 17, 2019'),
     new Date('August 18, 2019'),
@@ -79,6 +80,9 @@ year_2019.addEvent(new Event("Nellie's 21st Birthday",
 ));
 
 
-const years = {2018: year_2018, 2019: year_2019};
+
+let years = [];
+years[0]= year_2019;
+years[1] = year_2018;
 
 module.exports = years;
