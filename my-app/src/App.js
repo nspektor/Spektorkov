@@ -15,11 +15,9 @@ class App extends React.Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <img src='CostaRica.jpg' className="App-logo" alt="CostaRica"/>
-                    Spektorkovs!
-                    <ul>
+                    <div className="container">
                     {this.state.years}
-                    </ul>
+                    </div>
                 </header>
             </div>
         );
@@ -42,9 +40,10 @@ class Year extends React.Component {
     }
     render() {
         return (
-            <div className="year">
-                {this.props.yearDate}
+            <div>{this.props.yearDate}
+            <div className="row">
                 {this.state.events}
+            </div>
             </div>
         );
 
@@ -54,16 +53,31 @@ class Year extends React.Component {
 class Event extends React.Component {
     render() {
         return (
-            <div className="event">
-                {this.props.eventName}
-                {this.props.startDate.toDateString()}
-                {this.props.endDate.toDateString()}
-                <a href={this.props.photoLink}>Link</a>
-                <img src={'eventPhotos/' + this.props.headerImage}/>
+            <div className="col-md-3">
+            <div className="card mb-3">
+                <img className="card-img-top" src={'eventPhotos/' + this.props.headerImage}/>
+                <div className={this.props.eventName.length < 25 ? "": "small"}>{this.props.eventName}</div>
+                <div className="card-text">{this.props.startDate.toDateString() !== this.props.endDate.toDateString() ? this.props.startDate.toLocaleDateString('default', { month: 'long', day: 'numeric' }) + ' - ' +
+                    this.props.endDate.toLocaleDateString('default', { month: 'long', day: 'numeric' }) : this.props.startDate.toLocaleDateString('default', { month: 'long', day: 'numeric' })}</div>
+                <a href={this.props.photoLink} className="card-link">Photo Album</a>
 
+            </div>
             </div>
         );
     }
 }
+
+class Random extends React.Component {
+    render() {
+        return (
+            <a href={this.props.photoLink}>Random</a>
+        )
+    }
+}
+
+// Style "Spektorkovs"
+// Style the years
+// Figure out what to do w Random
+// Comments
 
 export default App;

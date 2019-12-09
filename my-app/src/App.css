@@ -17,6 +17,28 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.container {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.card {
+  color: #282c34;
+  height: 18rem;
+  margin: 0.1rem;
+}
+
+.card-text {
+  font-size: 0.7rem;
+}
+
+.small {
+  font-weight: 450;
+  font-size: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.6rem;
+}
+
+.card-link {
+  font-size: 0.8rem;
 }
