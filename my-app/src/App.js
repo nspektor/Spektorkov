@@ -75,9 +75,6 @@ class Random extends React.Component {
     }
 }
 
-// Style "Spektorkovs"
-// Style the years
-// Figure out what to do w Random
-// Comments
+
 
 export default App;

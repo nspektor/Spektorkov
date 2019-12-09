@@ -5,8 +5,8 @@ Spektorkov@gmail.com Cinnam0n@pple
 
 ## Tasks
 - MVP
-    - Add the Data (2018, 2019)
-    - Style the site
+    - Style the Header
+    - Figure out what to do w Random
 - Iteration 2
     - comments
 - Iteration 3
