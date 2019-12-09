@@ -44,10 +44,10 @@ class Year extends React.Component {
     }
     render() {
         return (
-            <div>{this.props.yearDate}
+
             <div className="row">
+                <div className="year-date">{this.props.yearDate}</div>
                 {this.state.events}
-            </div>
             </div>
         );
 

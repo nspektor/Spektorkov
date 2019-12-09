@@ -54,3 +54,12 @@ h1 {
 .card-link {
   font-size: 0.8rem;
 }
+
+.year-date {
+  position: absolute;
+  left:6rem;
+}
+
+.row {
+  margin-bottom: 3rem;
+}
