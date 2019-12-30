@@ -78,6 +78,12 @@ year_2019.addEvent(new Event("Nellie's 21st Birthday",
     "https://photos.google.com/share/AF1QipMviUyp5JKnAWpq-s_nD-OHQ-8jseYkHOInyCfe4mj1s-kbUFjEGdqKmv1-1lYYwg?key=azJ5QWNkQ0h4QjJ6Q1BiaEdYcnZoU3ZJU3VwN0N3",
     "Nellie21Birthday2019.jpg"
 ));
+year_2019.addEvent(new Event("Barbados",
+    new Date('December 22, 2019'),
+    new Date('December 29, 2019'),
+    "https://photos.google.com/u/4/share/AF1QipOTc0185V2ZO0HZNu26UKRkCRyRsO8bGN4jknGyfunZ55xKjhYVpQpeomtKHqmdVg?key=QjhLS3Jwa3luaUZtakd3OFZIeXo4OUVIaEU1d1lR",
+    "Barbados2019.jpg"
+));
 
 
 
