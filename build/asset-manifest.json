@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "spektorkov.com/static/css/main.dbe6e4ab.chunk.css",
+    "main.js": "spektorkov.com/static/js/main.e55f5fef.chunk.js",
+    "main.js.map": "spektorkov.com/static/js/main.e55f5fef.chunk.js.map",
+    "runtime-main.js": "spektorkov.com/static/js/runtime-main.e13799df.js",
+    "runtime-main.js.map": "spektorkov.com/static/js/runtime-main.e13799df.js.map",
+    "static/js/2.b326b2e8.chunk.js": "spektorkov.com/static/js/2.b326b2e8.chunk.js",
+    "static/js/2.b326b2e8.chunk.js.map": "spektorkov.com/static/js/2.b326b2e8.chunk.js.map",
+    "index.html": "spektorkov.com/index.html",
+    "precache-manifest.0960a1a93f324926932c45798ae5ce90.js": "spektorkov.com/precache-manifest.0960a1a93f324926932c45798ae5ce90.js",
+    "service-worker.js": "spektorkov.com/service-worker.js",
+    "static/css/main.dbe6e4ab.chunk.css.map": "spektorkov.com/static/css/main.dbe6e4ab.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e13799df.js",
+    "static/js/2.b326b2e8.chunk.js",
+    "static/css/main.dbe6e4ab.chunk.css",
+    "static/js/main.e55f5fef.chunk.js"
+  ]
+}
